@@ -45,7 +45,7 @@ fi
 
 wd=$(pwd)
 distfiles=$wd/distfiles
-temp_dir=/dev/shm/$(whoami)/temp/software-build
+temp_dir=/tmp/$(whoami)/temp/software-build
 src_dir=$temp_dir/src_dir
 build_dir=$temp_dir/build_dir
 
